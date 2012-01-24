@@ -59,7 +59,7 @@
 
 
 /** ---
- Using the cache
+ @name Using the cache
  */
 
 /** Returns the image stored in the URL specified. 
