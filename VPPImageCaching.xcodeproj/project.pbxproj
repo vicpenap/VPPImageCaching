@@ -1,0 +1,315 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		576C108714CEBF5200EF6E3B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 576C108614CEBF5200EF6E3B /* UIKit.framework */; };
+		576C108914CEBF5200EF6E3B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 576C108814CEBF5200EF6E3B /* Foundation.framework */; };
+		576C108B14CEBF5200EF6E3B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 576C108A14CEBF5200EF6E3B /* CoreGraphics.framework */; };
+		576C109114CEBF5200EF6E3B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 576C108F14CEBF5200EF6E3B /* InfoPlist.strings */; };
+		576C109314CEBF5200EF6E3B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 576C109214CEBF5200EF6E3B /* main.m */; };
+		576C109714CEBF5200EF6E3B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 576C109614CEBF5200EF6E3B /* AppDelegate.m */; };
+		576C109F14CEBF8400EF6E3B /* Placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = 576C109D14CEBF8400EF6E3B /* Placeholder.png */; };
+		576C10A014CEBF8400EF6E3B /* Placeholder@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 576C109E14CEBF8400EF6E3B /* Placeholder@2x.png */; };
+		576C10A914CEBFBD00EF6E3B /* VPPImageCachingHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 576C10A514CEBFBD00EF6E3B /* VPPImageCachingHelper.m */; };
+		576C10AA14CEBFBD00EF6E3B /* XMLReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 576C10A814CEBFBD00EF6E3B /* XMLReader.m */; };
+		576C10AD14CEBFCB00EF6E3B /* ImageCachingExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 576C10AC14CEBFCB00EF6E3B /* ImageCachingExample.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		576C108214CEBF5200EF6E3B /* VPPImageCaching.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VPPImageCaching.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		576C108614CEBF5200EF6E3B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		576C108814CEBF5200EF6E3B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		576C108A14CEBF5200EF6E3B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		576C108E14CEBF5200EF6E3B /* VPPImageCaching-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VPPImageCaching-Info.plist"; sourceTree = "<group>"; };
+		576C109014CEBF5200EF6E3B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		576C109214CEBF5200EF6E3B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		576C109414CEBF5200EF6E3B /* VPPImageCaching-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VPPImageCaching-Prefix.pch"; sourceTree = "<group>"; };
+		576C109514CEBF5200EF6E3B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		576C109614CEBF5200EF6E3B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		576C109D14CEBF8400EF6E3B /* Placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Placeholder.png; sourceTree = "<group>"; };
+		576C109E14CEBF8400EF6E3B /* Placeholder@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Placeholder@2x.png"; sourceTree = "<group>"; };
+		576C10A214CEBFBD00EF6E3B /* SynthesizeSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SynthesizeSingleton.h; sourceTree = "<group>"; };
+		576C10A414CEBFBD00EF6E3B /* VPPImageCachingHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VPPImageCachingHelper.h; sourceTree = "<group>"; };
+		576C10A514CEBFBD00EF6E3B /* VPPImageCachingHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VPPImageCachingHelper.m; sourceTree = "<group>"; };
+		576C10A714CEBFBD00EF6E3B /* XMLReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLReader.h; sourceTree = "<group>"; };
+		576C10A814CEBFBD00EF6E3B /* XMLReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLReader.m; sourceTree = "<group>"; };
+		576C10AB14CEBFCB00EF6E3B /* ImageCachingExample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageCachingExample.h; sourceTree = "<group>"; };
+		576C10AC14CEBFCB00EF6E3B /* ImageCachingExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageCachingExample.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		576C107F14CEBF5200EF6E3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				576C108714CEBF5200EF6E3B /* UIKit.framework in Frameworks */,
+				576C108914CEBF5200EF6E3B /* Foundation.framework in Frameworks */,
+				576C108B14CEBF5200EF6E3B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		576C107714CEBF5200EF6E3B = {
+			isa = PBXGroup;
+			children = (
+				576C108C14CEBF5200EF6E3B /* VPPImageCaching */,
+				576C108514CEBF5200EF6E3B /* Frameworks */,
+				576C108314CEBF5200EF6E3B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		576C108314CEBF5200EF6E3B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				576C108214CEBF5200EF6E3B /* VPPImageCaching.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		576C108514CEBF5200EF6E3B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				576C108614CEBF5200EF6E3B /* UIKit.framework */,
+				576C108814CEBF5200EF6E3B /* Foundation.framework */,
+				576C108A14CEBF5200EF6E3B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		576C108C14CEBF5200EF6E3B /* VPPImageCaching */ = {
+			isa = PBXGroup;
+			children = (
+				576C10AB14CEBFCB00EF6E3B /* ImageCachingExample.h */,
+				576C10AC14CEBFCB00EF6E3B /* ImageCachingExample.m */,
+				576C10A114CEBFBD00EF6E3B /* Libraries */,
+				576C109514CEBF5200EF6E3B /* AppDelegate.h */,
+				576C109614CEBF5200EF6E3B /* AppDelegate.m */,
+				576C108D14CEBF5200EF6E3B /* Supporting Files */,
+			);
+			path = VPPImageCaching;
+			sourceTree = "<group>";
+		};
+		576C108D14CEBF5200EF6E3B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				576C109D14CEBF8400EF6E3B /* Placeholder.png */,
+				576C109E14CEBF8400EF6E3B /* Placeholder@2x.png */,
+				576C108E14CEBF5200EF6E3B /* VPPImageCaching-Info.plist */,
+				576C108F14CEBF5200EF6E3B /* InfoPlist.strings */,
+				576C109214CEBF5200EF6E3B /* main.m */,
+				576C109414CEBF5200EF6E3B /* VPPImageCaching-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		576C10A114CEBFBD00EF6E3B /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				576C10A214CEBFBD00EF6E3B /* SynthesizeSingleton.h */,
+				576C10A314CEBFBD00EF6E3B /* VPPImageCaching */,
+				576C10A614CEBFBD00EF6E3B /* XMLParser */,
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
+		576C10A314CEBFBD00EF6E3B /* VPPImageCaching */ = {
+			isa = PBXGroup;
+			children = (
+				576C10A414CEBFBD00EF6E3B /* VPPImageCachingHelper.h */,
+				576C10A514CEBFBD00EF6E3B /* VPPImageCachingHelper.m */,
+			);
+			path = VPPImageCaching;
+			sourceTree = "<group>";
+		};
+		576C10A614CEBFBD00EF6E3B /* XMLParser */ = {
+			isa = PBXGroup;
+			children = (
+				576C10A714CEBFBD00EF6E3B /* XMLReader.h */,
+				576C10A814CEBFBD00EF6E3B /* XMLReader.m */,
+			);
+			path = XMLParser;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		576C108114CEBF5200EF6E3B /* VPPImageCaching */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 576C109A14CEBF5200EF6E3B /* Build configuration list for PBXNativeTarget "VPPImageCaching" */;
+			buildPhases = (
+				576C107E14CEBF5200EF6E3B /* Sources */,
+				576C107F14CEBF5200EF6E3B /* Frameworks */,
+				576C108014CEBF5200EF6E3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VPPImageCaching;
+			productName = VPPImageCaching;
+			productReference = 576C108214CEBF5200EF6E3B /* VPPImageCaching.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		576C107914CEBF5200EF6E3B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 576C107C14CEBF5200EF6E3B /* Build configuration list for PBXProject "VPPImageCaching" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 576C107714CEBF5200EF6E3B;
+			productRefGroup = 576C108314CEBF5200EF6E3B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				576C108114CEBF5200EF6E3B /* VPPImageCaching */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		576C108014CEBF5200EF6E3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				576C109114CEBF5200EF6E3B /* InfoPlist.strings in Resources */,
+				576C109F14CEBF8400EF6E3B /* Placeholder.png in Resources */,
+				576C10A014CEBF8400EF6E3B /* Placeholder@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		576C107E14CEBF5200EF6E3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				576C109314CEBF5200EF6E3B /* main.m in Sources */,
+				576C109714CEBF5200EF6E3B /* AppDelegate.m in Sources */,
+				576C10A914CEBFBD00EF6E3B /* VPPImageCachingHelper.m in Sources */,
+				576C10AA14CEBFBD00EF6E3B /* XMLReader.m in Sources */,
+				576C10AD14CEBFCB00EF6E3B /* ImageCachingExample.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		576C108F14CEBF5200EF6E3B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				576C109014CEBF5200EF6E3B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		576C109814CEBF5200EF6E3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		576C109914CEBF5200EF6E3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		576C109B14CEBF5200EF6E3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VPPImageCaching/VPPImageCaching-Prefix.pch";
+				INFOPLIST_FILE = "VPPImageCaching/VPPImageCaching-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		576C109C14CEBF5200EF6E3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VPPImageCaching/VPPImageCaching-Prefix.pch";
+				INFOPLIST_FILE = "VPPImageCaching/VPPImageCaching-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		576C107C14CEBF5200EF6E3B /* Build configuration list for PBXProject "VPPImageCaching" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				576C109814CEBF5200EF6E3B /* Debug */,
+				576C109914CEBF5200EF6E3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		576C109A14CEBF5200EF6E3B /* Build configuration list for PBXNativeTarget "VPPImageCaching" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				576C109B14CEBF5200EF6E3B /* Debug */,
+				576C109C14CEBF5200EF6E3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 576C107914CEBF5200EF6E3B /* Project object */;
+}

@@ -1,0 +1,7 @@
+.DS_Store
+VPPImageCaching.xcodeproj/xcuserdata/
+VPPImageCaching.xcodeproj/project.xcworkspace/xcuserdata/
+build/
+VPPImageCaching.xcodeproj/*.mode1v3
+VPPImageCaching.xcodeproj/*.pbxuser
+
