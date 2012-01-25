@@ -6,7 +6,7 @@
  When you receive low memory warnings, just call flushCache. It will drop all
  downloaded images.
 
- You can find the library source code in VPPImageCaching/Libraries/VPPImageCaching.
+ You can find the library source code in [VPPImageCaching/Libraries/VPPImageCaching](https://github.com/vicpenap/VPPImageCaching/tree/master/VPPImageCaching/Libraries/VPPImageCaching).
  
  This library depends on the included SynthesizeSingleton library,
  made by Matt Gallagher.
