@@ -112,7 +112,6 @@
 		576C10A114CEBFBD00EF6E3B /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
-				576C10A214CEBFBD00EF6E3B /* SynthesizeSingleton.h */,
 				576C10A314CEBFBD00EF6E3B /* VPPImageCaching */,
 				576C10A614CEBFBD00EF6E3B /* XMLParser */,
 			);
@@ -122,11 +121,12 @@
 		576C10A314CEBFBD00EF6E3B /* VPPImageCaching */ = {
 			isa = PBXGroup;
 			children = (
+				576C10A214CEBFBD00EF6E3B /* SynthesizeSingleton.h */,
 				576C10A414CEBFBD00EF6E3B /* VPPImageCachingHelper.h */,
 				576C10A514CEBFBD00EF6E3B /* VPPImageCachingHelper.m */,
 			);
 			path = VPPImageCaching;
-			sourceTree = "<group>";
+			sourceTree = SOURCE_ROOT;
 		};
 		576C10A614CEBFBD00EF6E3B /* XMLParser */ = {
 			isa = PBXGroup;
