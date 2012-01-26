@@ -21,14 +21,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		576C108214CEBF5200EF6E3B /* VPPImageCaching.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VPPImageCaching.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		576C108214CEBF5200EF6E3B /* VPPImageCachingExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VPPImageCachingExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		576C108614CEBF5200EF6E3B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		576C108814CEBF5200EF6E3B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		576C108A14CEBF5200EF6E3B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		576C108E14CEBF5200EF6E3B /* VPPImageCaching-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VPPImageCaching-Info.plist"; sourceTree = "<group>"; };
+		576C108E14CEBF5200EF6E3B /* VPPImageCachingExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VPPImageCachingExample-Info.plist"; sourceTree = "<group>"; };
 		576C109014CEBF5200EF6E3B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		576C109214CEBF5200EF6E3B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		576C109414CEBF5200EF6E3B /* VPPImageCaching-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VPPImageCaching-Prefix.pch"; sourceTree = "<group>"; };
+		576C109414CEBF5200EF6E3B /* VPPImageCachingExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VPPImageCachingExample-Prefix.pch"; sourceTree = "<group>"; };
 		576C109514CEBF5200EF6E3B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		576C109614CEBF5200EF6E3B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		576C109D14CEBF8400EF6E3B /* Placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Placeholder.png; sourceTree = "<group>"; };
@@ -59,7 +59,7 @@
 		576C107714CEBF5200EF6E3B = {
 			isa = PBXGroup;
 			children = (
-				576C108C14CEBF5200EF6E3B /* VPPImageCaching */,
+				576C108C14CEBF5200EF6E3B /* VPPImageCachingExample */,
 				576C108514CEBF5200EF6E3B /* Frameworks */,
 				576C108314CEBF5200EF6E3B /* Products */,
 			);
@@ -68,7 +68,7 @@
 		576C108314CEBF5200EF6E3B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				576C108214CEBF5200EF6E3B /* VPPImageCaching.app */,
+				576C108214CEBF5200EF6E3B /* VPPImageCachingExample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -83,7 +83,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		576C108C14CEBF5200EF6E3B /* VPPImageCaching */ = {
+		576C108C14CEBF5200EF6E3B /* VPPImageCachingExample */ = {
 			isa = PBXGroup;
 			children = (
 				576C10AB14CEBFCB00EF6E3B /* ImageCachingExample.h */,
@@ -93,7 +93,7 @@
 				576C109614CEBF5200EF6E3B /* AppDelegate.m */,
 				576C108D14CEBF5200EF6E3B /* Supporting Files */,
 			);
-			path = VPPImageCaching;
+			path = VPPImageCachingExample;
 			sourceTree = "<group>";
 		};
 		576C108D14CEBF5200EF6E3B /* Supporting Files */ = {
@@ -101,10 +101,10 @@
 			children = (
 				576C109D14CEBF8400EF6E3B /* Placeholder.png */,
 				576C109E14CEBF8400EF6E3B /* Placeholder@2x.png */,
-				576C108E14CEBF5200EF6E3B /* VPPImageCaching-Info.plist */,
+				576C108E14CEBF5200EF6E3B /* VPPImageCachingExample-Info.plist */,
 				576C108F14CEBF5200EF6E3B /* InfoPlist.strings */,
 				576C109214CEBF5200EF6E3B /* main.m */,
-				576C109414CEBF5200EF6E3B /* VPPImageCaching-Prefix.pch */,
+				576C109414CEBF5200EF6E3B /* VPPImageCachingExample-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -140,9 +140,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		576C108114CEBF5200EF6E3B /* VPPImageCaching */ = {
+		576C108114CEBF5200EF6E3B /* VPPImageCachingExample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 576C109A14CEBF5200EF6E3B /* Build configuration list for PBXNativeTarget "VPPImageCaching" */;
+			buildConfigurationList = 576C109A14CEBF5200EF6E3B /* Build configuration list for PBXNativeTarget "VPPImageCachingExample" */;
 			buildPhases = (
 				576C107E14CEBF5200EF6E3B /* Sources */,
 				576C107F14CEBF5200EF6E3B /* Frameworks */,
@@ -152,9 +152,9 @@
 			);
 			dependencies = (
 			);
-			name = VPPImageCaching;
+			name = VPPImageCachingExample;
 			productName = VPPImageCaching;
-			productReference = 576C108214CEBF5200EF6E3B /* VPPImageCaching.app */;
+			productReference = 576C108214CEBF5200EF6E3B /* VPPImageCachingExample.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -165,7 +165,7 @@
 			attributes = {
 				LastUpgradeCheck = 0420;
 			};
-			buildConfigurationList = 576C107C14CEBF5200EF6E3B /* Build configuration list for PBXProject "VPPImageCaching" */;
+			buildConfigurationList = 576C107C14CEBF5200EF6E3B /* Build configuration list for PBXProject "VPPImageCachingExample" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -177,7 +177,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				576C108114CEBF5200EF6E3B /* VPPImageCaching */,
+				576C108114CEBF5200EF6E3B /* VPPImageCachingExample */,
 			);
 		};
 /* End PBXProject section */
@@ -241,6 +241,7 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "VPPImageCachingExample/VPPImageCachingExample-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				SDKROOT = iphoneos;
 			};
@@ -258,6 +259,7 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "VPPImageCachingExample/VPPImageCachingExample-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
@@ -269,10 +271,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "VPPImageCaching/VPPImageCaching-Prefix.pch";
-				INFOPLIST_FILE = "VPPImageCaching/VPPImageCaching-Info.plist";
+				GCC_PREFIX_HEADER = "VPPImageCachingExample/VPPImageCachingExample-Prefix.pch";
+				INFOPLIST_FILE = "VPPImageCachingExample/VPPImageCachingExample-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = VPPImageCachingExample;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -281,10 +283,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "VPPImageCaching/VPPImageCaching-Prefix.pch";
-				INFOPLIST_FILE = "VPPImageCaching/VPPImageCaching-Info.plist";
+				GCC_PREFIX_HEADER = "VPPImageCachingExample/VPPImageCachingExample-Prefix.pch";
+				INFOPLIST_FILE = "VPPImageCachingExample/VPPImageCachingExample-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = VPPImageCachingExample;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -292,7 +294,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		576C107C14CEBF5200EF6E3B /* Build configuration list for PBXProject "VPPImageCaching" */ = {
+		576C107C14CEBF5200EF6E3B /* Build configuration list for PBXProject "VPPImageCachingExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				576C109814CEBF5200EF6E3B /* Debug */,
@@ -301,13 +303,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		576C109A14CEBF5200EF6E3B /* Build configuration list for PBXNativeTarget "VPPImageCaching" */ = {
+		576C109A14CEBF5200EF6E3B /* Build configuration list for PBXNativeTarget "VPPImageCachingExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				576C109B14CEBF5200EF6E3B /* Debug */,
 				576C109C14CEBF5200EF6E3B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
